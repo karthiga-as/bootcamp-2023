@@ -1,0 +1,20 @@
+/* Write your code here: */
+h1, h2{
+    color:blueviolet;
+}/* Grop the selectos*/
+
+.box > .done {
+    color:firebrick;
+}/* child selectors*/
+
+.box li {
+    color:blue;
+}/*Descendant*/
+
+li.done{
+    color:seagreen
+}/*Chaining selector */
+
+ul p.done{
+    font-size :.5rem;
+}
